@@ -11,13 +11,12 @@
     <meta name="keywords" content="bra size calculator, bra fitting, perfect bra fit, bra measurement, sister sizes, US UK EU bra sizes, us bra size calculator, us to uk bra size calculator, us bra size measurements, bra size calculator uk inches, bra size calculator uk in cm, uk bra size calculator cm, best bra size calculator uk">
     <meta name="author" content="Professional Bra Fitting Guide">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="">
+    <link rel="canonical" href="https://www.online-brasizecalculator.com/">
     
     <meta property="og:title" content="Bra Size Calculator - Find Your Perfect Fit Online 2025">
     <meta property="og:description" content="Accurate bra size calculator with international sizing. Get your perfect fit in seconds with professional measurement tool.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
+    <meta property="og:url" content="https://www.online-brasizecalculator.com/"> <meta property="og:image" content="">
     
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bra Size Calculator - Find Your Perfect Fit">
@@ -77,16 +76,6 @@
         #calculator-page.page-wrapper {
              padding: 20px;
         }
-        
-        body:has(#us-page[style*="display: block"]), 
-        body:has(#uk-page[style*="display: block"]) {
-            padding: 0; 
-        }
-        
-         #us-page .page-wrapper, #uk-page .page-wrapper {
-            padding: 20px;
-        }
-        /* --- End of ADDED from bra14 --- */
 
         .container {
             max-width: 800px;
@@ -444,7 +433,7 @@
         /* --- MODIFIED: Responsive styles (from bra14) --- */
         @media (max-width: 768px) {
             /* ADDED from bra14 */
-            #calculator-page.page-wrapper, #us-page .page-wrapper, #uk-page .page-wrapper { 
+            #calculator-page.page-wrapper { 
                 padding: 10px; 
             }
             
@@ -485,7 +474,7 @@
 
         @media (max-width: 480px) {
              /* ADDED from bra14 */
-            #calculator-page.page-wrapper, #us-page .page-wrapper, #uk-page .page-wrapper { 
+            #calculator-page.page-wrapper { 
                 padding: 10px 5px 5px 5px; 
                 line-height: 1.6; 
             }
@@ -514,54 +503,18 @@
             }
         }
         /* --- End of MODIFIED responsive --- */
-
-
-        /* --- ADDED: SUB-PAGE NAVIGATION STYLES (Common) (from bra14) --- */
-        .top-nav { position: sticky; top: 0; background: white; border-bottom: 1px solid #e0e0e0; padding: 0 20px; height: 56px; display: flex; align-items: center; justify-content: space-between; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.04); }
-        .nav-left { display: flex; align-items: center; gap: 12px; }
-        .nav-back-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; background: transparent; border: none; border-radius: 6px; font-size: 14px; color: #666; cursor: pointer; transition: all 0.2s; font-weight: 500; }
-        .nav-back-btn:hover { background: #f5f5f5; color: #333; }
-        .nav-back-btn svg { width: 18px; height: 18px; }
-        .nav-title { font-size: 16px; font-weight: 600; color: #1a1a1a; }
-        .nav-right { display: flex; align-items: center; gap: 8px; }
-        .icon-btn { padding: 8px; background: transparent; border: none; border-radius: 6px; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; justify-content: center; }
-        .icon-btn:hover { background: #f5f5f5; }
-        .icon-btn svg { width: 20px; height: 20px; color: #666; }
         
-        #us-page .breadcrumb, #uk-page .breadcrumb { 
-            padding: 16px 20px; 
-            font-size: 14px; 
-        }
-        #us-page .breadcrumb a, #uk-page .breadcrumb a { color: #666; text-decoration: none; transition: color 0.2s; cursor: pointer; }
-        #us-page .breadcrumb a:hover, #uk-page .breadcrumb a:hover { color: #333; }
-        #us-page .breadcrumb span, #uk-page .breadcrumb span { margin: 0 8px; color: #ccc; }
-        #us-page .breadcrumb .current, #uk-page .breadcrumb .current { color: #333; font-weight: 500; }
-        
+        /* --- 主页专用的 FAB 按钮样式 (保留) --- */
         .quick-actions { position: fixed; bottom: 24px; right: 24px; display: flex; flex-direction: column; gap: 12px; z-index: 90; }
         .fab { width: 56px; height: 56px; border-radius: 50%; background: #d4a574; color: white; border: none; box-shadow: 0 4px 12px rgba(212, 165, 116, 0.4); cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.3s; }
         .fab:hover { transform: scale(1.1); box-shadow: 0 6px 16px rgba(212, 165, 116, 0.5); }
         .fab svg { width: 24px; height: 24px; }
-        .fab.secondary { background: white; color: #8b6f47; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
-        .fab.secondary:hover { background: #f5f5f5; box-shadow: 0 6px 16px rgba(0,0,0,0.2); }
-
-        /* Responsive styles specific to subpage navigation */
+        
         @media (max-width: 768px) {
-            .top-nav { padding: 0 16px; height: 52px; }
-            .nav-title { font-size: 15px; }
-            #us-page .breadcrumb, #uk-page .breadcrumb { padding: 12px 16px; font-size: 13px; }
-            #us-page .breadcrumb span, #uk-page .breadcrumb span { margin: 0 6px; }
             .quick-actions { bottom: 16px; right: 16px; }
             .fab { width: 48px; height: 48px; }
             .fab svg { width: 20px; height: 20px; }
         }
-
-        @media (max-width: 480px) {
-            .nav-title { font-size: 14px; }
-            #us-page .breadcrumb, #uk-page .breadcrumb { font-size: 12px; }
-            .icon-btn { padding: 6px; }
-            .icon-btn svg { width: 18px; height: 18px; }
-        }
-        /* --- End of ADDED from bra14 --- */
 
     </style>
 </head>
@@ -638,13 +591,13 @@
 
                 <section class="link-grid-section">
                     <div class="link-grid">
-                        <a class="link-card page-link" data-target="us-page">bra size calculator us</a>
-                        <a class="link-card page-link" data-target="uk-page">bra size calculator uk</a> 
+                        <a class="link-card" href="us.html">bra size calculator us</a>
+                        <a class="link-card" href="uk.html">bra size calculator uk</a> 
+                        
                         <a href="#charts-section" class="link-card">bra size calculator chart</a>
                         <a href="#calculator" class="link-card inches-fix">bra size calculator in inches</a>
                     </div>
                 </section>
-
                 <section class="measurement-guide">
                     <h3>How to Measure Your Bra Size Accurately</h3>
                     
@@ -798,164 +751,9 @@
                 </svg>
             </button>
         </div>
-        </div><div id="us-page" style="display: none;">
-        <nav class="top-nav">
-            <div class="nav-left">
-                <button class="nav-back-btn page-link" data-target="calculator-page">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M19 12H5M12 19l-7-7 7-7"/>
-                    </svg>
-                    <span>Back</span>
-                </button>
-                <div class="nav-title">Bra Size Calculator US</div>
-            </div>
-            <div class="nav-right">
-                <button class="icon-btn" title="Share">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
-                        <path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/>
-                    </svg>
-                </button>
-            </div>
-        </nav>
-        
-        <div class="page-wrapper">
-             <div class="breadcrumb">
-                <a class="page-link" data-target="calculator-page">Home</a>
-                <span>/</span>
-                <span class="current">US Size Guide</span>
-            </div>
-            <div class="container">
-                <main class="content">
-                    <article class="seo-content" style="margin-top:0;">
-                        <h2>The Ultimate US Bra Size Calculator Guide</h2>
-                        <p>Welcome to your specialized guide for finding the perfect bra fit in the United States. Navigating US bra sizing can be challenging due to brand inconsistencies and unique measurement systems. This guide, combined with our calculator, is designed to give you clarity and confidence. We believe this is the <strong>best bra size calculator for US</strong> fittings because it's accurate, easy to use, and packed with essential information.</p>
-                        <h3>Understanding US Bra Size Measurements</h3>
-                        <p>The core of any accurate <strong>US bra size calculator</strong> relies on two simple measurements: the band and the bust. The standard US method, which our calculator uses, is as follows:</p>
-                        <ul>
-                            <li><strong>Band Measurement:</strong> Measure your underbust in inches. If the number is even, add 4 inches. If it's odd, add 5 inches. This is your band size. (Note: Many modern brands now recommend using the raw underbust measurement, rounded to the nearest even number. Our calculator's logic is based on the chart data for maximum compatibility.)</li>
-                            <li><strong>Bust Measurement:</strong> Measure the fullest part of your bust.</li>
-                            <li><strong>Cup Size:</strong> The difference between your bust measurement and your calculated band size determines your cup. A 1-inch difference is an A cup, 2 inches is a B cup, and so on.</li>
-                        </ul>
-                        <h3>Bra Size Calculator for USA Plus Size</h3>
-                        <p>Finding a comfortable and supportive fit is especially crucial for plus-size individuals. Our <strong>bra size calculator for USA plus size</strong> is designed to be inclusive and accurate across a wide range of body types. When measuring, ensure the tape is not digging into your skin but remains snug and level. Key things to look for in a good plus-size fit are a band that doesn't ride up, cups that fully contain breast tissue without spillage, and wide, comfortable straps that don't dig into your shoulders.</p>
-                        <h3>Effortless US to UK & EU Bra Size Conversion</h3>
-                        <p>Shopping online or from international brands is easier than ever, but sizing can be a headache. Our tool acts as a <strong>US to UK bra size calculator</strong> and a <strong>bra size calculator for EU to US</strong> conversions automatically.</p>
-                        <ul>
-                            <li><strong>US to UK:</strong> Band sizes are identical (e.g., 34 is 34). However, cup sizes diverge after DD. A US DDD is a UK E, a US G is a UK F, and so on. Our calculator handles this complex conversion for you.</li>
-                            <li><strong>US to EU:</strong> This is completely different. The EU system uses centimeters and doesn't add inches to the band. For example, a US 32 band is roughly equivalent to an EU 70. Our results table provides your precise EU size.</li>
-                        </ul>
-                        <h3>Discover Your Options with a Sister Size Bra Calculator (US)</h3>
-                        <p>What if your calculated size isn't quite right? This is where the <strong>sister size bra calculator for US</strong> sizes becomes invaluable. Sister sizes are alternate sizes where the cup volume is the same. The rule is simple: go down a band size and up a cup size, or vice versa.</p>
-                        <p>For example, if you are a <strong>36C</strong>:</p>
-                        <ul>
-                            <li>Your "smaller" sister size (tighter band, larger cup) is <strong>34D</strong>.</li>
-                            <li>Your "larger" sister size (looser band, smaller cup) is <strong>38B</strong>.</li>
-                        </ul>
-                        <p>Our results automatically include a sister size chart to give you more options when shopping, ensuring you find the most comfortable fit possible.</p>
-                    </article>
-                </main>
-            </div>
-        </div>
+    </div>
 
-        <div class="quick-actions">
-            <button class="fab secondary" onclick="scrollToTop()" title="Back to top">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 19V5M5 12l7-7 7 7"/>
-                </svg>
-            </button>
-            <button class="fab page-link" data-target="calculator-page" title="Go to Calculator">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h8M8 14h8M8 18h8"/>
-                </svg>
-            </button>
-        </div>
-    </div><div id="uk-page" style="display: none;">
-         <nav class="top-nav">
-            <div class="nav-left">
-                <button class="nav-back-btn page-link" data-target="calculator-page">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M19 12H5M12 19l-7-7 7-7"/>
-                    </svg>
-                    <span>Back</span>
-                </button>
-                <div class="nav-title">Bra Size Calculator UK</div>
-            </div>
-            <div class="nav-right">
-                <button class="icon-btn" title="Share">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
-                        <path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/>
-                    </svg>
-                </button>
-            </div>
-        </nav>
-        
-        <div class="page-wrapper">
-             <div class="breadcrumb">
-                <a class="page-link" data-target="calculator-page">Home</a>
-                <span>/</span>
-                <span class="current">UK Size Guide</span>
-            </div>
-            <div class="container">
-                <main class="content">
-                    <article class="seo-content" style="margin-top:0;">
-                        <h2>Your Accurate UK Bra Size Calculator Guide</h2>
-                        <p>Welcome to the definitive guide for finding your perfect UK bra size. Whether you prefer measuring in inches or centimeters, our calculator and this guide make it simple. We aim to be the <strong>best bra size calculator UK</strong> residents can rely on, offering accurate results and clear explanations. Use our <strong>free online bra size calculator UK</strong> tool on the main page for instant results.</p>
-                        
-                        <h3>Measuring Your UK Bra Size in Inches</h3>
-                        <p>Using inches is a common method in the UK. Our <strong>bra size calculator UK inches</strong> function uses the standard UK calculation:</p>
-                        <ul>
-                            <li><strong>Band Measurement:</strong> Measure snugly under your bust in inches. If the number is even, add 4 inches. If odd, add 5 inches. (Note: Some modern methods suggest using the raw measurement rounded up to the nearest even number. Our main calculator uses the +4/+5 method derived from common charts.)</li>
-                            <li><strong>Bust Measurement:</strong> Measure around the fullest part of your bust in inches.</li>
-                            <li><strong>Cup Size Calculation:</strong> Subtract the calculated band size from the bust measurement. The difference in inches determines your UK cup size (1"=A, 2"=B, 3"=C, 4"=D, 5"=DD, 6"=E, 7"=F, 8"=FF, etc.). Refer to the chart on the main page for the full US/UK cup conversion.</li>
-                        </ul>
-                        <p>For precise results using this method, ensure you're using a reliable <strong>UK bra size calculator in inches</strong>, like the one on our homepage.</p>
-
-                        <h3>Measuring Your UK Bra Size in CM</h3>
-                        <p>Prefer metric? No problem. Our calculator functions as a <strong>bra size calculator UK in cm</strong> too. While UK sizing itself is based on inches, you can easily measure in centimeters and let our tool convert.</p>
-                         <ul>
-                            <li><strong>Measure:</strong> Take your underbust and bust measurements in centimeters.</li>
-                            <li><strong>Input:</strong> Enter these CM values into our calculator and select "CM".</li>
-                            <li><strong>Get UK Size:</strong> The calculator will automatically convert the CM measurements to determine the correct UK band and cup size (e.g., 34DD).</li>
-                        </ul>
-                        <p>This makes our tool an effective <strong>UK bra size calculator cm</strong> users can trust for accurate UK sizing, even when starting with metric measurements. Many search for "bra size calculator uk cm online," and our tool provides exactly that functionality.</p>
-
-                        <h3>UK Bra Size Conversion: UK to EU</h3>
-                        <p>Shopping from European brands? Understanding the conversion is key. Use our calculator as a <strong>bra size calculator UK to EU</strong> converter.</p>
-                        <ul>
-                            <li><strong>Band Size Difference:</strong> UK band sizes are in inches (32, 34, 36...), while EU sizes are in centimeters and relate more directly to the underbust measurement (70, 75, 80...). A UK 32 is roughly an EU 70, a UK 34 is roughly an EU 75, and so on.</li>
-                            <li><strong>Cup Size Similarity:</strong> Generally, cup sizes up to D are similar (UK D ≈ EU D). However, after DD, the systems diverge. UK uses DD, E, F, FF, G..., while EU often continues with E, F, G, H... (though variations exist).</li>
-<li><strong>Calculator Advantage:</strong> Our tool automatically calculates your equivalent EU size when you get your UK size, removing the guesswork.</li>
-                        </ul>
-                         
-                        <h3>Finding the Best & Most Accurate UK Fit</h3>
-                        <p>Beyond measurements, achieving the perfect fit involves checking key areas. When trying on your calculated size, look for:</p>
-                         <ul>
-                            <li><strong>Band:</strong> Snug and level around your back, not riding up. You should only be able to fit two fingers underneath comfortably.</li>
-                            <li><strong>Cups:</strong> Breast tissue fully contained within the cups without spilling over the top, sides, or bottom. No gaping.</li>
-                            <li><strong>Straps:</strong> Comfortable on your shoulders, providing some support but not digging in. Most support should come from the band.</li>
-                            <li><strong>Centre Gore:</strong> The panel between the cups should lie flat against your sternum (for most bra types).</li>
-                        </ul>
-                        <p>Relying on an <strong>accurate UK bra size calculator</strong> like ours gives you the best starting point, but always confirm the fit by trying bras on, as sizing can vary slightly between brands.</p>
-                    </article>
-                </main>
-            </div>
-        </div>
-
-        <div class="quick-actions">
-            <button class="fab secondary" onclick="scrollToTop()" title="Back to top">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 19V5M5 12l7-7 7 7"/>
-                </svg>
-            </button>
-            <button class="fab page-link" data-target="calculator-page" title="Go to Calculator">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h8M8 14h8M8 18h8"/>
-                </svg>
-            </button>
-        </div>
-    </div><script>
+    <script>
         // --- KEPT: Original, clean logic from '修改bra10' ---
         
         // Data derived from the provided Word document for EU sizing [cm]
@@ -1152,10 +950,7 @@
             });
         }
 
-        // --- ADDED: 'scrollToTop' function from bra14 ---
-        function scrollToTop() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
+        // --- (已删除 'scrollToTop' function) ---
 
         // --- ADDED: scrollToCalculator function ---
         function scrollToCalculator() {
@@ -1209,50 +1004,12 @@
             const initialUnit = document.querySelector('input[name="bandUnit"]:checked').value;
             updatePlaceholders(initialUnit);
             
-            // --- ADDED: PAGE NAVIGATION LOGIC from bra14 ---
-            const calculatorPage = document.getElementById('calculator-page');
-            const usPage = document.getElementById('us-page');
-            const ukPage = document.getElementById('uk-page'); 
-            const pageLinks = document.querySelectorAll('.page-link');
-            const body = document.body; // Reference to the body element
-
-            pageLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('data-target');
-                    
-                    // Always hide all pages first
-                    calculatorPage.style.display = 'none';
-                    usPage.style.display = 'none';
-                    ukPage.style.display = 'none'; 
-
-                    // Remove page-wrapper class from calculator page if it exists
-                    if(calculatorPage.classList.contains('page-wrapper')) {
-                         calculatorPage.classList.remove('page-wrapper');
-                     }
-
-                    // Show the target page and manage body padding/wrapper
-                    if (targetId === 'us-page') {
-                        usPage.style.display = 'block';
-                        body.style.padding = '0'; // Remove body padding for US subpage
-                    } else if (targetId === 'uk-page') { 
-                        ukPage.style.display = 'block';
-                         body.style.padding = '0'; // Remove body padding for UK subpage
-                    } else { // Target is calculator-page
-                        calculatorPage.style.display = 'block';
-                         body.style.padding = ''; // Restore default body padding from CSS
-                         calculatorPage.classList.add('page-wrapper'); // Add wrapper class for padding
-                    }
-                    
-                    scrollToTop();
-                });
-            });
+            // --- (已删除 PAGE NAVIGATION LOGIC) ---
 
              // Ensure correct initial state on load (assuming calculator page is default)
-             // This logic block is also from 'bra14' to ensure correct startup
+             const calculatorPage = document.getElementById('calculator-page');
+             const body = document.body; // Reference to the body element
              calculatorPage.style.display = 'block'; // Make sure calculator is shown
-             usPage.style.display = 'none';
-             ukPage.style.display = 'none';
              body.style.padding = ''; // Ensure default body padding
              if(!calculatorPage.classList.contains('page-wrapper')) { // Add wrapper if missing
                  calculatorPage.classList.add('page-wrapper');
