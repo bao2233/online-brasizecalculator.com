@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.online-brasizecalculator.com/sitemap.xml
